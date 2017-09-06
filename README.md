@@ -1,6 +1,8 @@
 
 ## Chapter 2 
 
+#### following are the used commands
+
 ```
   mkdir {public,public/css,public/img,public/js,db,views,views/includes,routes}
   npm init
