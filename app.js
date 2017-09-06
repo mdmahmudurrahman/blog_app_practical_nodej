@@ -9,6 +9,8 @@ var app = express();
 // One of the ways to configure Express.js settings is to use app.set()
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
+
+// Set the view engine
 app.set('view engine', 'jade');
 
 // catch requests of all methods on all URLs (* wildcard)
